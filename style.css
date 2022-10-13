@@ -1,0 +1,20 @@
+@import url(fonts/Asap/asap.css);
+
+body {
+    font-family: 'Asap';
+}
+
+div.all-content {
+    margin-left: 20%;
+}
+
+.blue-block {
+    background-color: blue;
+    height: 40px;
+
+}
+
+#top-mail {
+    color: white;
+    font-family: "Asap";
+}
