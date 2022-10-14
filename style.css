@@ -6,15 +6,32 @@ body {
 
 div.all-content {
     margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
 }
 
 .blue-block {
-    background-color: blue;
     height: 40px;
-
+    left: 0px;
+    top: 0px;
+    background: #0E77AF;
 }
 
 #top-mail {
     color: white;
     font-family: "Asap";
+    position: absolute;
+    font-size: 12px;
+    margin: right;
+}
+
+.blue-block #top-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-block #top-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
