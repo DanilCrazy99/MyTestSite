@@ -1,37 +1,15 @@
-@import url(fonts/Asap/asap.css);
-
 body {
-    font-family: 'Asap';
-}
-
-div.all-content {
-    margin-left: 20%;
-    margin-right: 20%;
-    position: relative;
-}
-
-.blue-block {
-    height: 40px;
-    left: 0px;
-    top: 0px;
-    background: #0E77AF;
-}
-
-#top-mail {
-    color: white;
     font-family: "Asap";
-    position: absolute;
-    font-size: 12px;
-    margin: right;
+    margin: auto;
 }
 
-.blue-block #top-mail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
 }
-.blue-block #top-mail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.top-rectangle{
+    background-color: #0E77AF;
+    padding: auto;
+    height: 40px;
 }
