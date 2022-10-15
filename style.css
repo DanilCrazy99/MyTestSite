@@ -31,7 +31,6 @@ a {
 .container {
     width: 1170px;
     margin: auto;
-    font-size: 12px;
     display: flex;
     align-items: center;
 }
@@ -44,4 +43,5 @@ a {
     color: white;
     text-decoration: none;
     margin-left: auto;
+    font-size: 12px;
 }
