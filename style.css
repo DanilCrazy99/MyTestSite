@@ -1,15 +1,47 @@
 body {
     font-family: "Asap";
-    margin: auto;
-}
-
-h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
 }
 
-.top-rectangle{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.top-rectangle {
+    width: 1665px;
     background-color: #0E77AF;
-    padding: auto;
     height: 40px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.container input {
+    padding-left: 21px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
 }
