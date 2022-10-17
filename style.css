@@ -93,6 +93,7 @@ a {
     width: 1665px;
     margin: auto;
     margin-top: 24px;
+    margin-bottom: 85px;
 }
 
 .scroller img {
@@ -130,4 +131,29 @@ a {
     background-color: #B4141B;
     text-align: center;
     margin-top: 50px;
+}
+.about-us {
+    margin-right: 50px;
+}
+
+.double-columns {
+    display: flex;
+}
+
+.blocks-about-us {
+    height: 240px;
+    width: 350px;
+    padding-left: 37px;
+    padding-top: 45px;
+}
+
+.blocks-about-us p {
+    margin-top: 45px;
+}
+.blocks-about-us h2 {
+    position: relative;
+    display: flex;
+}
+h2 img {
+    margin-left: auto;
 }
