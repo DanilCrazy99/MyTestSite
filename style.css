@@ -1,6 +1,7 @@
 body {
     font-family: "Asap";
     padding: 0;
+    margin: 0;
 }
 
 h1,
@@ -94,6 +95,19 @@ a {
     margin: auto;
     margin-top: 24px;
     margin-bottom: 85px;
+}
+
+#button-pre-page {
+    margin-left: 90px;
+}
+
+#button-next-page {
+    margin-left: 1546px;
+}
+
+.scroller input {
+    position: absolute;
+    margin-top: 317px;
 }
 
 .scroller img {
