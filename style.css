@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+button {
+    font-family: "Asap";
+}
+
 h1,
 h2,
 h3,
@@ -83,12 +87,17 @@ a {
     color: #7D7D7D;
 }
 
-.top-buttons2 {
+.nav {
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 }
 
-.scroller {
+
+
+/* Первый вариант скроллера */
+
+/* .scroller {
     display: flex;
     font-size: 24px;
     width: 1665px;
@@ -103,9 +112,9 @@ a {
 
 #button-next-page {
     margin-left: 1546px;
-}
+} */
 
-.scroller input {
+/* .scroller input {
     position: absolute;
     margin-top: 317px;
 }
@@ -137,6 +146,71 @@ a {
 
 .words-in-scroller h1 {
     font-size: 84px;
+} */
+
+
+/* Второй вариант скроллера */
+
+button {
+    font-family: "Asap";
+}
+
+.scroller {
+    background-image: url("img/img1.png");
+    width: 1665px;
+    height: 647px;
+    margin: 24px auto;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.words-in-scroller {
+    width: 584px;
+    margin-left: auto;
+    margin-right: 130px;
+}
+
+.header-for-who {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.09px;
+    color: #1A1919;
+    margin-bottom: 20px;
+}
+
+.our-promise {
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 96.26px;
+    color: #1A1919;
+}
+
+.our-promise p {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.btn-on-banner {
+    height: 74px;
+    width: 284px;
+    background-color: #B4141B;
+    border: 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.btn-for-scroll-left {
+    margin-left: 100px;
+}
+
+.btn-for-scroll-right {
+    margin-right: 100px;
 }
 
 .btn {
@@ -148,6 +222,8 @@ a {
     text-align: center;
     margin-top: 50px;
 }
+
+/* Конец блока с скроллером */
 
 .about-us {
     margin-right: 50px;
@@ -211,4 +287,35 @@ h2 img {
 
 #third-block {
     background: linear-gradient(#FCFCFC, #F7F7F7);
+}
+
+.benefits {
+    display: flex;
+}
+
+.banner-benefits {
+    margin-left: -250px;
+}
+
+.banner-benefits img {
+    position: absolute;
+}
+
+.banner-benefits a {
+    width: 474px;
+    height: 96px;
+    margin-top: 35px;
+    margin-bottom: 36px;
+}
+
+#first-button-benefits {
+    background-color: #FFFFFFE5;
+}
+
+#second-button-benefits {
+    background-color: #0E77AF;
+}
+
+#third-button-benefits {
+    background-color: #0E77AF;
 }
