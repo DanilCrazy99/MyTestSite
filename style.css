@@ -87,64 +87,6 @@ a {
     margin-bottom: 24px;
 }
 
-
-
-/* Первый вариант скроллера */
-
-/* .scroller {
-    display: flex;
-    font-size: 24px;
-    width: 1665px;
-    margin: auto;
-    margin-top: 24px;
-    margin-bottom: 85px;
-}
-
-#button-pre-page {
-    margin-left: 90px;
-}
-
-#button-next-page {
-    margin-left: 1546px;
-} */
-
-/* .scroller input {
-    position: absolute;
-    margin-top: 317px;
-}
-
-.scroller img {
-    margin: auto;
-}
-
-.scroller .header-in-scroll {
-    margin-bottom: 10px;
-}
-
-.scroller .words-in-scroller {
-    width: 584px;
-    position: absolute;
-    margin-left: 833px;
-    margin-top: 151px;
-
-}
-
-.words-in-scroller a {
-    color: white;
-    margin: auto;
-}
-
-.words-in-scroller p {
-    font-size: 32px;
-}
-
-.words-in-scroller h1 {
-    font-size: 84px;
-} */
-
-
-/* Второй вариант скроллера */
-
 .scroller {
     background-image: url("img/img1.png");
     width: 1665px;
@@ -214,8 +156,6 @@ a {
     margin-top: 50px;
 }
 
-/* Конец блока с скроллером */
-
 .about-us {
     margin-right: 50px;
 }
@@ -262,16 +202,6 @@ a {
 .gray-btn-readmore a {
     color: #7D7D7D;
 }
-
-/* .why-us-colomn a {
-    font-size: 12px;
-    color: #7D7D7D;
-    line-height: 29px;
-    font-weight: 700;
-    display: block;
-    margin-top: 20px;
-    margin-left: 37px;
-} */
 
 .why-us-colomn p {
     margin-top: 17px;
