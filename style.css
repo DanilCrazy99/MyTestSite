@@ -297,9 +297,10 @@ h2 img {
 
 .benefits {
     margin-top: 135px;
+    display: flex;
 }
 
-.img-banner-benefits {
+.banner-benefits {
     background-image: url("img/img3.png");
     height: 504px;
     width: 877px;
@@ -308,15 +309,14 @@ h2 img {
     padding-bottom: 87px;
 }
 
-.banner-benefits p {
+.first-button-benefits, 
+.second-button-benefits, 
+.third-button-benefits
+{
     margin-left: auto;
     width: 474px;
     padding: 35px;
     margin-bottom: 21px;
-}
-
-.banner-benefits a {
-    margin: auto;
 }
 
 .first-button-benefits {
@@ -340,4 +340,31 @@ h2 img {
     font-weight: 700;
     font-size: 22px;
     line-height: 25px;
+}
+
+.header-benefits {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.header-benefits p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #9B9B9B;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+.benefits-first-block ul {
+    width: 474px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.about-benefits {
+    margin-left: 54px;
+    margin-top: 77px;
 }
