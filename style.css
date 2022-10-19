@@ -342,11 +342,14 @@ h2 img {
     line-height: 25px;
 }
 
+.benefits-first-block .header-benefits {
+    margin-left: 11px;
+}
+
 .header-benefits {
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
-    margin-left: 11px;
 }
 
 .header-benefits p{
@@ -384,4 +387,24 @@ h2 img {
     width: 88px;
     text-align: center;
     margin-left: 12px;
+}
+
+.bottom-block-benefits {
+    margin-top: 130px;
+    display: flex;
+}
+
+.list-our-services {
+    margin-top: 67px;
+}
+
+.header-element-list-our-services {
+    color: #0E77AF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    border-bottom-style: ridge;
+    padding-bottom: 25px;
+    padding-top: 31px;
+    width: 592px;
 }
