@@ -22,7 +22,6 @@ p {
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
@@ -57,12 +56,12 @@ a {
 .buttons {
     margin: auto;
     margin-right: 58px;
-
 }
 
 .buttons a {
     margin-left: 20px;
     font-size: 14px;
+    color: black;
 }
 
 .call-us {
@@ -71,6 +70,10 @@ a {
 
 .number {
     margin-left: 10px;
+}
+
+.number a {
+    color: black;
 }
 
 .call-us p {
@@ -217,11 +220,13 @@ a {
     margin-right: 50px;
 }
 
-.about-us p {
-    width: 772px;
+.about-us-description,
+.our-services-description {
     margin-top: 39px;
-    line-height: 29px;
     white-space: pre-line;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
 }
 
 .about-us img {
@@ -245,7 +250,20 @@ a {
     width: 350px;
 }
 
-.why-us-colomn a {
+.gray-btn-readmore {
+    font-size: 12px;
+    line-height: 29px;
+    font-weight: 700;
+    display: block;
+    margin-top: 20px;
+    margin-left: 37px;
+}
+
+.gray-btn-readmore a {
+    color: #7D7D7D;
+}
+
+/* .why-us-colomn a {
     font-size: 12px;
     color: #7D7D7D;
     line-height: 29px;
@@ -253,7 +271,7 @@ a {
     display: block;
     margin-top: 20px;
     margin-left: 37px;
-}
+} */
 
 .why-us-colomn p {
     margin-top: 17px;
@@ -324,6 +342,7 @@ h2 img {
     font-weight: 700;
     font-size: 22px;
     line-height: 25px;
+    color: black;
 }
 
 .second-button-benefits {
@@ -406,5 +425,11 @@ h2 img {
     border-bottom-style: ridge;
     padding-bottom: 25px;
     padding-top: 31px;
+    width: 592px;
+}
+
+.content-list-our-services {
+    margin-top: 32px;
+    margin-right: 20px;
     width: 592px;
 }
