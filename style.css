@@ -300,17 +300,19 @@ h2 img {
 }
 
 .img-banner-benefits {
-    margin-left: -250px;
     background-image: url("img/img3.png");
     height: 504px;
     width: 877px;
+    box-sizing: border-box;
+    padding-top: 87px;
+    padding-bottom: 87px;
 }
 
 .banner-benefits p {
     margin-left: auto;
     width: 474px;
     padding: 35px;
-    margin-bottom: 36px;
+    margin-bottom: 21px;
 }
 
 .banner-benefits a {
