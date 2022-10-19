@@ -33,7 +33,7 @@ a {
     margin-bottom: 20px;
 }
 
-.container {
+.inner-container {
     width: 1170px;
     margin: auto;
 }
@@ -43,7 +43,7 @@ a {
     align-items: center;
 }
 
-.container input {
+.inner-container input {
     padding-right: 21px;
 }
 
@@ -346,6 +346,7 @@ h2 img {
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
+    margin-left: 11px;
 }
 
 .header-benefits p{
@@ -362,9 +363,25 @@ h2 img {
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
+    padding-inline-start: 0px;
+    list-style-position: inside;
+    height: 196px;
 }
 
 .about-benefits {
     margin-left: 54px;
     margin-top: 77px;
+}
+
+.red-btn-read-more {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    padding: 6px;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #B4141B;
+    width: 88px;
+    text-align: center;
+    margin-left: 12px;
 }
