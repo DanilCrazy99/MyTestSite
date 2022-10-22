@@ -173,6 +173,7 @@ a {
 
 .about-us img {
     margin-top: 57px;
+    margin-bottom: 39px;
 }
 
 .double-columns {
@@ -390,6 +391,7 @@ h2 img {
     padding: 148px 247px;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-testimonials {
@@ -446,4 +448,10 @@ h2 img {
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
+}
+
+.btn-big-number {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
 }
