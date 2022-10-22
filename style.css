@@ -523,6 +523,8 @@ h2 img {
 
 .main-foot {
     background-color: #4A4A4A;
+    display: flex;
+
 }
 
 .lower-foot {
@@ -560,4 +562,30 @@ h2 img {
     line-height: 28px;
     color: white;
     margin-bottom: 45px;
+    text-align: left;
+}
+
+.description-main-foot {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: white;
+    width: 334px;
+}
+
+.second-col-foot ul {
+    padding-inline-start: 0;
+}
+
+.second-col-foot li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.icons-foot input {
+    width: 40px;
+    height: 40px;
+    margin-right: 33px;
 }
