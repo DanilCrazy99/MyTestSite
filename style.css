@@ -521,3 +521,43 @@ h2 img {
     border: none;
 }
 
+.main-foot {
+    background-color: #4A4A4A;
+}
+
+.lower-foot {
+    background-color: #363636;
+}
+
+.cards-foot {
+    justify-content: center;
+    display: flex;
+    margin-top: 130px;
+}
+
+.first-card-foot, 
+.second-card-foot, 
+.third-card-foot {
+    width: 380px;
+    height: 196px;
+}
+
+.first-card-foot {
+    background-color: #5F5F5F;
+}
+
+.second-card-foot {
+    background-color: #6C6C6C;
+}
+
+.third-card-foot {
+    background-color: #7B7B7B;
+}
+
+.header-main-foot {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 45px;
+}
