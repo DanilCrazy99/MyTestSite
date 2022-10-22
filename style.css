@@ -541,6 +541,7 @@ h2 img {
 .third-card-foot {
     width: 380px;
     height: 196px;
+    display: flex;
 }
 
 .first-card-foot {
@@ -603,4 +604,22 @@ h2 img {
     display: flex;
     padding: 0 247.5px;
     justify-content: space-between;
+}
+
+.cards-foot img {
+    display: inline-block;
+    margin: auto;
+    margin-left: 16px;
+    margin-right: 32px;
+}
+
+.content-card {
+    margin-top: 40px;
+}
+
+.lower-foot {
+    height: 108px;
+    padding-left: 247px;
+    color: white;
+    align-content: center;
 }
