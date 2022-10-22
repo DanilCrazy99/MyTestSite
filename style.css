@@ -296,13 +296,13 @@ h2 img {
     margin-left: 11px;
 }
 
-.header-benefits {
+.header-benefits, .header-appointment {
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
 }
 
-.header-benefits p{
+.header-benefits, .header-appointment p{
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -392,6 +392,7 @@ h2 img {
     color: white;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 179px;
 }
 
 .header-testimonials {
@@ -454,4 +455,17 @@ h2 img {
     font-weight: 400;
     font-size: 28px;
     line-height: 32px;
+}
+
+.left-block-appointment ul {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    color: #595959;
+}
+
+.first-item-appointment {
+    margin-bottom: 26px;
 }
