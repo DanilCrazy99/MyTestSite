@@ -555,15 +555,23 @@ h2 img {
     background-color: #7B7B7B;
 }
 
-.header-main-foot {
+.header-main-foot, 
+.header-cards {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: white;
-    margin-bottom: 45px;
     text-align: left;
-    margin-top: 208px;
     width: 334px;
+}
+
+.header-cards {
+    margin-bottom: 11px;
+}
+
+.header-main-foot {
+    margin-top: 208px;
+    margin-bottom: 45px;
 }
 
 .description-main-foot {
