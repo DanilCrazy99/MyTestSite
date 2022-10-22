@@ -1,5 +1,6 @@
 body, 
-button {
+button,
+input {
     font-family: "Asap";
 }
 
@@ -43,8 +44,8 @@ a {
     align-items: center;
 }
 
-.inner-container input {
-    padding-right: 21px;
+.top-buttons input {
+    margin-right: 21px;
 }
 
 .top-mail {
@@ -302,7 +303,7 @@ h2 img {
     line-height: 37px;
 }
 
-.header-benefits, .header-appointment p{
+.header-benefits p, .header-appointment p{
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -457,6 +458,10 @@ h2 img {
     line-height: 32px;
 }
 
+.left-block-appointment {
+    margin-right: 120px;
+}
+
 .left-block-appointment ul {
     font-weight: 400;
     font-size: 16px;
@@ -469,3 +474,47 @@ h2 img {
 .first-item-appointment {
     margin-bottom: 26px;
 }
+
+.right-block-appointment {
+    background: linear-gradient(#FCFCFC, #F7F7F7);
+}
+
+.header-form {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 46px;
+}
+
+.appointment {
+    display: flex;
+}
+
+.form-appointment {
+    width: 426px;
+    padding-left: 48px;
+}
+
+.form-appointment-input {
+    width: 375px;
+    height: 53px;
+    margin-bottom: 37px;
+    border: solid #E2E2E2 2px;
+    padding-left: 13px;
+}
+
+.red-btn-send {
+    background-color: #B4141B;
+    color: white;
+    height: 35px;
+    width: 104px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 23px;
+    text-transform: uppercase;
+    display: block;
+    margin-right: 41px;
+    margin-left: auto;
+    border: none;
+}
+
