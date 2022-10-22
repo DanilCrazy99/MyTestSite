@@ -167,6 +167,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
+    height: 132px;
 }
 
 .about-us img {
@@ -188,6 +189,7 @@ a {
 .blocks-about-us-third {
     height: 240px;
     width: 350px;
+    padding-left: 37px;
 }
 
 .gray-btn-readmore {
@@ -196,7 +198,6 @@ a {
     font-weight: 700;
     display: block;
     margin-top: 20px;
-    margin-left: 37px;
 }
 
 .gray-btn-readmore a {
@@ -207,14 +208,12 @@ a {
     margin-top: 17px;
     margin-right: 29px;
     line-height: 25px;
-    margin-left: 37px;
 }
 
 .why-us-colomn .name-block {
     display: flex;
     padding-top: 45px;
     color: #0E77AF;
-    margin-left: 37px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -262,7 +261,7 @@ h2 img {
 .third-button-benefits
 {
     margin-left: auto;
-    width: 474px;
+    width: 404px;
     padding: 35px;
     margin-bottom: 21px;
 }
@@ -318,6 +317,7 @@ h2 img {
     padding-inline-start: 0px;
     list-style-position: inside;
     height: 196px;
+    margin-bottom: 26px;
 }
 
 .about-benefits {
@@ -335,8 +335,12 @@ h2 img {
     background-color: #B4141B;
     width: 88px;
     text-align: center;
+}
+
+.benefits-first-block .red-btn-read-more {
     margin-left: 12px;
 }
+
 
 .bottom-block-benefits {
     margin-top: 130px;
@@ -354,12 +358,32 @@ h2 img {
     line-height: 28px;
     border-bottom-style: ridge;
     padding-bottom: 25px;
-    padding-top: 31px;
+    padding-top: 29px;
     width: 592px;
+    display: flex;
 }
 
 .content-list-our-services {
     margin-top: 32px;
     margin-right: 20px;
     width: 592px;
+    display: flex;
+    align-items: center;
+}
+
+.content-list-our-services img {
+    margin-right: 20px;
+}
+
+.header-element-list-our-services a {
+    margin-left: auto;
+}
+
+.security-block {
+    margin-left: 101px;
+}
+
+.security-block img {
+    margin-top: 9px;
+    margin-bottom: 19px;
 }
