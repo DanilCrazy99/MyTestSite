@@ -523,8 +523,6 @@ h2 img {
 
 .main-foot {
     background-color: #4A4A4A;
-    display: flex;
-
 }
 
 .lower-foot {
@@ -535,6 +533,7 @@ h2 img {
     justify-content: center;
     display: flex;
     margin-top: 130px;
+    margin-bottom: -98px;
 }
 
 .first-card-foot, 
@@ -563,6 +562,8 @@ h2 img {
     color: white;
     margin-bottom: 45px;
     text-align: left;
+    margin-top: 208px;
+    width: 334px;
 }
 
 .description-main-foot {
@@ -588,4 +589,10 @@ h2 img {
     width: 40px;
     height: 40px;
     margin-right: 33px;
+}
+
+.container-footer {
+    display: flex;
+    padding: 0 247.5px;
+    justify-content: space-between;
 }
