@@ -501,6 +501,9 @@ h2 img {
     margin-bottom: 37px;
     border: solid #E2E2E2 2px;
     padding-left: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .red-btn-send {
