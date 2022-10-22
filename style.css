@@ -23,6 +23,7 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .top-rectangle {
@@ -162,12 +163,12 @@ a {
 
 .about-us-description,
 .our-services-description {
-    margin-top: 39px;
     white-space: pre-line;
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
     height: 132px;
+    margin: auto;
 }
 
 .about-us img {
@@ -188,7 +189,7 @@ a {
 .blocks-about-us-second, 
 .blocks-about-us-third {
     height: 240px;
-    width: 350px;
+    width: 313px;
     padding-left: 37px;
 }
 
@@ -333,7 +334,7 @@ h2 img {
     display: inline-block;
     color: #FFFFFF;
     background-color: #B4141B;
-    width: 88px;
+    width: 92px;
     text-align: center;
 }
 
@@ -345,10 +346,6 @@ h2 img {
 .bottom-block-benefits {
     margin-top: 130px;
     display: flex;
-}
-
-.list-our-services {
-    margin-top: 67px;
 }
 
 .header-element-list-our-services {
@@ -365,7 +362,6 @@ h2 img {
 
 .content-list-our-services {
     margin-top: 32px;
-    margin-right: 20px;
     width: 592px;
     display: flex;
     align-items: center;
@@ -386,4 +382,34 @@ h2 img {
 .security-block img {
     margin-top: 9px;
     margin-bottom: 19px;
+}
+
+.testimonials {
+    margin-top: 161px;
+    background-color: #0E77AF;
+    padding: 148px 247px;
+}
+
+.header-testimonials {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.description-testimonial {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.big-number {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+}
+
+.description-big-number {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
 }
