@@ -622,4 +622,5 @@ h2 img {
     padding-left: 247px;
     color: white;
     align-content: center;
+    display: grid;
 }
