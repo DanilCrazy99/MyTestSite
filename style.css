@@ -388,18 +388,22 @@ h2 img {
     margin-top: 161px;
     background-color: #0E77AF;
     padding: 148px 247px;
+    color: white;
+    display: flex;
 }
 
 .header-testimonials {
     font-weight: 700;
     font-size: 32px;
     line-height: 37px;
+    
 }
 
-.description-testimonial {
+.question-testimonial {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    margin-bottom: 92px;
 }
 
 .big-number {
@@ -412,4 +416,34 @@ h2 img {
     font-weight: 400;
     font-size: 28px;
     line-height: 32px;
+    margin-bottom: 56px;
+}
+
+.answers-people {
+    background-color: white;
+    color: black;
+    padding-left: 59px;
+    padding-top: 75px;
+    padding-bottom: 82px;
+    width: 734px;
+}
+
+.header-answers {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 17px;
+}
+
+.description-answers {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    margin-bottom: 54px;
+}
+
+.signature {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
 }
